@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@keyframes glow {
+  0% { color: rgb(210,154,23); margin-left: 0px }
+  50% { color: rgb(235, 5, 62); margin-left: 100px}
+  100% { color: rgb(151, 0, 0); margin-left: 200px}
+}
+.shadow-glow {
+  animation: glow 1.5s infinite alternate ease-in-out;
+}
